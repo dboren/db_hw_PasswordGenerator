@@ -12,3 +12,8 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+function generatePassword() {
+  var passwordLength = prompt("Please entire password length between 8 and 128");
+
+}
