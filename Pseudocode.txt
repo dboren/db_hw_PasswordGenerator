@@ -1,0 +1,19 @@
+Pseudocode
+
+If button is clicked
+    Prompt appears for inputing length of password (8-128)
+        When number is submitted, passwordLength variable is created with
+                that value
+    
+    Then prompt appears for selecting whether to include lowercase
+        When yes or no is submitted, assign true or false to hasLowercase variable
+
+    Then prompt appears for selecting wti uppercase
+        When y or n is submitted, assign true or false to hasUppercase variable
+
+    Then prompt appears for selecting wti numbers
+        When y or n is submitted, assign true or false to hasNumbers variable
+
+    Then prompt appears for selecting wti spec chars
+        When y or n is submitted, assign true or false to hasSpecChars variable
+
