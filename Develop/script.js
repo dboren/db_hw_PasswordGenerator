@@ -22,7 +22,9 @@ function generatePassword() {
       var hasNumbers = confirm("Do you want numbers in your password?");
       var hasSpecChars = confirm("Do you want special characters in your password?");
       
-    }
+    };
+
+console.log(generatePasswod());
   
 
 
