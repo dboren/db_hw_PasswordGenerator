@@ -38,48 +38,61 @@ function generatePassword() {
       alert("Must enable at least one character type")
     } else if (hasLowercase === true && hasUppercase !== true && hasNumbers !== true && hasSpecChars !== true) {
        var pwdArr = lowercaseArr;  
+       console.log(pwdArr);
 
     } else if (hasLowercase !== true && hasUppercase === true && hasNumbers !== true && hasSpecChars !== true) {
         var pwdArr = uppercaseArr; 
+        console.log(pwdArr);
 
     } else if (hasLowercase !== true && hasUppercase !== true && hasNumbers === true && hasSpecChars !== true) {
         var pwdArr = numbersArr;
+        console.log(pwdArr);
 
     } else if (hasLowercase !== true && hasUppercase !== true && hasNumbers !== true && hasSpecChars === true) {
         var pwdArr = specCharArr;
+        console.log(pwdArr);
 
     } else if (hasLowercase === true && hasUppercase === true && hasNumbers !== true && hasSpecChars !== true) {
         var pwdArr = lowercaseArr.concat(uppercaseArr);
+        console.log(pwdArr);
 
     } else if (hasLowercase === true && hasUppercase !== true && hasNumbers === true && hasSpecChars !== true) {
         var pwdArr = lowercaseArr.concat(numbersArr);
+        console.log(pwdArr);
 
     } else if (hasLowercase === true && hasUppercase !== true && hasNumbers !== true && hasSpecChars === true) {
         var pwdArr = lowercaseArr.concat(specCharArr);
+        console.log(pwdArr);
 
     } else if (hasLowercase !== true && hasUppercase === true && hasNumbers === true && hasSpecChars !== true) {
         var pwdArr = uppercaseArr.concat(numbersArr); 
+        console.log(pwdArr);
 
     } else if (hasLowercase !== true && hasUppercase === true && hasNumbers !== true && hasSpecChars === true) {
         var pwdArr = uppercaseArr.concat(specCharArr);
+        console.log(pwdArr);
 
     } else if (hasLowercase !== true && hasUppercase !== true && hasNumbers === true && hasSpecChars === true) {
         var pwdArr = numbersArr.concat(specCharArr);
+        console.log(pwdArr);
 
     } else if (hasLowercase === true && hasUppercase === true && hasNumbers === true && hasSpecChars !== true) {
         var pwdArr = lowercaseArr.concat(uppercaseArr, numbersArr);
+        console.log(pwdArr);
 
     } else if (hasLowercase === true && hasUppercase === true && hasNumbers !== true && hasSpecChars === true) {
         var pwdArr = lowercaseArr.concat(uppercaseArr, specCharArr);
+        console.log(pwdArr);
 
     } else if (hasLowercase !== true && hasUppercase === true && hasNumbers === true && hasSpecChars === true) {
         var pwdArr = uppercaseArr.concat(numbersArr, specCharArr);
+        console.log(pwdArr);
 
     } else if (hasLowercase === true && hasUppercase === true && hasNumbers === true && hasSpecChars === true) {
         var pwdArr = lowercaseArr.concat(uppercaseArr, numbersArr, specCharArr);
 
 
-
+        
 
         console.log(pwdArr);
 
