@@ -90,19 +90,13 @@ function generatePassword() {
 
     } else if (hasLowercase === true && hasUppercase === true && hasNumbers === true && hasSpecChars === true) {
         var pwdArr = lowercaseArr.concat(uppercaseArr, numbersArr, specCharArr);
-
-
-        
-
         console.log(pwdArr);
 
     } 
-       
+      for (i=0; i < passwordLength; i++) {
+      password += pwdArr[i=(Math.floor(Math.random()*pwdArr.length))];
 
-    };
+      console.log(password);
 
-
-
-
-
-
+    }
+}
