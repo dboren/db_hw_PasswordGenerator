@@ -94,7 +94,7 @@ function generatePassword() {
         console.log(pwdArr);
 
     } 
-      var pwString;
+      var pwString = "";
       for (var i=0; i < passwordLength; i++) {
       pwString += pwdArr[(Math.floor(Math.random()*pwdArr.length))];
 
