@@ -17,7 +17,8 @@ generateBtn.addEventListener("click", writePassword);
 function generatePassword() {
   var passwordLength = prompt("Please enter password length between 8 and 128"); 
     if (passwordLength < 8 || passwordLength > 128) {
-      alert("Invalid character number"); 
+      alert("Invalid character number");
+      return;
     } else {
       var hasLowercase = confirm("Do you want lowercase characters in your password?");
 
