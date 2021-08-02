@@ -15,7 +15,7 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 */
 function generatePassword() {
-  var passwordLength = prompt("Please entire password length between 8 and 128"); 
+  var passwordLength = prompt("Please enter password length between 8 and 128"); 
     if (passwordLength < 8 || passwordLength > 128) {
       alert("Invalid character number"); 
     } else {
